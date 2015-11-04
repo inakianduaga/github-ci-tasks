@@ -1,0 +1,19 @@
+{
+    "version": "1.6.2",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "outDir": "dist",
+        "sourceMap": true
+    },
+    "files": [
+      "src/github.ts",
+      "src/services/IWebhook.ts",
+      "src/services/Webhook.ts",
+      "src/services/Api.ts",
+      "src/services/Tasks.ts"
+    ]
+}

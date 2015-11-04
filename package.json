@@ -1,0 +1,47 @@
+{
+  "name": "Github Continuous Integration Tasks",
+  "description": "A nodejs/typescript server with an API to perform CI-related tasks in github",
+  "version": "0.0.1",
+  "homepage": "https://github.com/inakianduaga/github-ci-tasks",
+  "private": true,
+  "author": {
+    "name": "Inaki Anduaga",
+    "email": "inaki@inakianduaga.com",
+    "url": "inakianduaga.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inakianduaga/github-ci-tasks"
+  },
+  "bugs": {
+    "url": "https://github.com/inakianduaga/github-ci-tasks/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/inakianduaga/github-ci-tasks/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "octonode": "^0.7.4",
+    "bluebird": "^3.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^1.6.2",
+    "tsd": "^0.6.4",
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.7.8",
+    "gulp-tslint": "^3.0.1-beta",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-help": "^1.3.4",
+    "require-dir": "^0.3.0",
+    "del": "^1.2.0",
+    "run-sequence": "^1.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build" : "node ./node_modules/gulp/dist/gulp.js build"
+  }
+}
